@@ -1,0 +1,4 @@
+This is the source code you can find for my YouTube video:
+
+https://www.youtube.com/watch?v=mKCM4alTeDw[Spring Boot + Spring AMQP]
+
