@@ -2,3 +2,16 @@ This is the source code you can find for my YouTube video:
 
 https://www.youtube.com/watch?v=mKCM4alTeDw[Spring Boot + Spring AMQP]
 
+You can either:
+
+A) Run the `RabbitTest`, which uses Testcontainers to spin up a RabbitMQ broker, run the test, and shut it down or...
+
+B) Start up RabbitMQ like this:
+
+```
+docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management
+```
+
+Then run `DemoApplication`. It will talk to the broker you just spun up.
+
+Play around with it and let us know what you did in the comments!
